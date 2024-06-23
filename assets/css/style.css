@@ -58,6 +58,12 @@ h1 {
     margin-bottom: 1em;
 }
 
+/* active list item */
+.active {
+    bottom-border: 1px solid #3a3a3a;
+}
+
+
 /* Main */
 main {
     background-color: lightblue;
