@@ -107,6 +107,12 @@ main {
     justify-content:space-evenly;
     list-style-type: none;
 }
+/* Social Networks List */
+#social-networks i {
+    font-size:160%;
+    padding:5%;
+    color:#3a3a3a;
+}
 
 /* Media query: tablets and larger (768px+) */
 @media screen and (min-width:768px) {
@@ -136,7 +142,7 @@ main {
         margin-top: 79px;
     }
 }
-    
+ 
 /* Media query: tablets and larger (992px+) */
 @media screen and (min-width:992px) {
     #menu a:hover {
