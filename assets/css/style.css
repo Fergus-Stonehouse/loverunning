@@ -115,8 +115,12 @@ main {
 }
 
 /* h2 Why Love Running */
-#h2 {
-    padding:20px;
+h2 {
+    /* applying the same styles as with h1 */
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing :2px;
+    color: #252525;
 }
 
 /* Footer */
