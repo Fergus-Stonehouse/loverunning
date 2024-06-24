@@ -107,16 +107,12 @@ main {
 
 /* Reasons section */
 #reasons {
-    margin-top:20px;
-    margin-bottom:20px;
     width:90%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
+    margin: 20px auto;
 }
 
 /* h2 Why Love Running */
-h2 {
+#reasons h2 {
     /* applying the same styles as with h1 */
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -131,17 +127,12 @@ h2 {
 /* Benefits section */
 #benefits p {
     padding: 0 20px;
+}
+#benefits-physical>div, #benefits-mental>div {
     line-height:20px;
     margin-bottom:20px;
 }
-#benefits-physical {
-    line-height:20px;
-    margin-bottom:20px;
-}
-#benefits-mental {
-    line-height:20px;
-    margin-bottom:20px;
-}
+
 /* h3 header for both benefits-phys/mental - again from h1 */
 h3 {
     font-family: 'Oswald', sans-serif;
