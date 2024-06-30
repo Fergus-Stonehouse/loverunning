@@ -125,9 +125,6 @@ main {
 }
 
 /* Benefits section */
-
-
-
 /* h3 header for both benefits-phys/mental - again from h1 */
 h3 {
     font-family: 'Oswald', sans-serif;
@@ -138,11 +135,21 @@ h3 {
     
 }
 
+#benefits-physical, #benefits-mental {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}    
+    
+
 #benefits-physical>div, #benefits-mental>div {
-    line-height:20px;
-    margin-bottom:20px;
+    width:75%;
 }
 
+#benefits-mental {
+    text-align: end;
+    align-self: flex-end;
+}
 #benefits p {
         padding: 0 20px;
 }
@@ -215,7 +222,7 @@ h3 {
     }
 }
  
-/* Media query: tablets and larger (992px+) */
+/* Media query: laptops and larger (992px+) */
 @media screen and (min-width:992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
