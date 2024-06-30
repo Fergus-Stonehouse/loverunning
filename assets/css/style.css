@@ -165,7 +165,12 @@ h3 {
     max-height: 300px;
 }
 
-
+/* setting alignment for the benefits-image */
+#benefits-image {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
 /* Footer */
 #social-networks {
     text-align:center;
