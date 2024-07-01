@@ -39,12 +39,17 @@ header a {
 }
 
 /* h1 */
-h1 {
+h1, h2, h3 {
     /* Give h1 specific font-family */
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing :2px;
     color: #252525;
+}
+
+/* hidden */
+.hidden-heading {
+    display:none;
 }
 
 /* Menu */
@@ -114,11 +119,7 @@ main {
 
 /* h2 Why Love Running */
 #reasons h2 {
-    /* applying the same styles as with h1 */
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing :2px;
-    color: #252525;
+    /* augmenting #reasons h2 with specific styling */
     font-size: 280%;
     margin-bottom: 20px;
     text-align: center;
@@ -127,13 +128,7 @@ main {
 
 /* Benefits section */
 /* h3 header for both benefits-phys/mental - again from h1 */
-h3 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing :2px;
-    color: #252525;
-    text-align: left;
-}
+
 #benefits p {
         padding: 0 20px;
 }
@@ -199,10 +194,6 @@ h3 {
 
 /* Times Headers */
 #meetups h2 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing :2px;
-    color: #252525;
     text-align: left;
 }
 
