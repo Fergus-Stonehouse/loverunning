@@ -158,32 +158,6 @@ main {
     justify-content: center;
 }
 
-/* Gallery page */
-#photos img {
-    width:100%;
-    height: 1em;
-
-}
-
-#photos {
-    line-height:0;
-}
-
-/* Footer */
-#social-networks {
-    text-align:center;
-    padding:20px 0;
-    display:flex;
-    justify-content:space-evenly;
-    list-style-type: none;
-}
-/* Social Networks List */
-#social-networks i {
-    font-size:160%;
-    padding:5%;
-    color:#3a3a3a;
-}
-
 /* Meet-up Times */
 #times {
     background: url(../images/dublin-city.webp) no-repeat center/cover;
@@ -213,6 +187,40 @@ main {
     /* override the heading color in general style */
     color: #fafafa;
     text-align:center;
+}
+
+/* Gallery page */
+#photos img {
+    width:100%;
+    line-height: 1em;
+
+}
+
+#photos {
+    line-height:0;
+}
+
+/* Footer */
+#social-networks {
+    text-align:center;
+    padding:20px 0;
+    display:flex;
+    justify-content:space-evenly;
+    list-style-type: none;
+}
+/* Social Networks List */
+#social-networks i {
+    font-size:160%;
+    padding:5%;
+    color:#3a3a3a;
+}
+
+/* Media query: large or landscape phones (576px+) */
+@media screen and (min-width:576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }   
 }
 
 /* Media query: tablets and larger (768px+) */
@@ -263,12 +271,24 @@ main {
     #benefits-mental > div {
         text-align: end;
         align-self: flex-end;
+    }
+
+    /* Gallery Page */
+    #photos {
+        column-count:3;
+
+    }
 }
  
 /* Media query: laptops and larger (992px+) */
 @media screen and (min-width:992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+    /* Gallery Page */
+    #photos {
+        column-count:4;
+        
     }
 }
 
@@ -294,5 +314,4 @@ main {
     #benefits-physical > div {
         align-self: flex-end;
     }
-}
 }
