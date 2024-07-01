@@ -157,6 +157,18 @@ main {
     align-items:center;
     justify-content: center;
 }
+
+/* Gallery page */
+#photos img {
+    width:100%;
+    height: 1em;
+
+}
+
+#photos {
+    line-height:0;
+}
+
 /* Footer */
 #social-networks {
     text-align:center;
