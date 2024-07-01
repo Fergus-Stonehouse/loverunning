@@ -224,6 +224,7 @@ main {
     margin-bottom: 20px;
 }
 
+/* input for text, email, radio buttons and submit */
 .text-input {
     background: transparent;
     color: #fafafa;width:100%;
