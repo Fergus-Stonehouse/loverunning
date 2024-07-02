@@ -19,7 +19,20 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-/* Header */
+/* headers */
+h1, h2, h3 {
+    /* Give h1 specific font-family */
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing :2px;
+    color: #252525;
+}
+
+/* hidden */
+.hidden-heading {
+    display:none;
+}
+
 header {
     background-color:#ffffff;
     padding:0 1rem;
@@ -38,19 +51,6 @@ header a {
     color:inherit;
 }
 
-/* h1 */
-h1, h2, h3 {
-    /* Give h1 specific font-family */
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing :2px;
-    color: #252525;
-}
-
-/* hidden */
-.hidden-heading {
-    display:none;
-}
 
 /* Menu */
 #menu {
@@ -115,6 +115,22 @@ main {
     position: relative;
 }
 
+#cover-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #ffffff;
+}
+
 /* Reasons section */
 #reasons {
     width:90%;
@@ -132,6 +148,10 @@ main {
 
 /* Benefits section */
 /* h3 header for both benefits-phys/mental - again from h1 */
+#benefits-physical>div, #benefits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
 
 #benefits p {
         padding: 0 20px;
@@ -247,7 +267,7 @@ main {
     background-color: #454b1b;
     color: #fafafa;
     font-size:100%;
-    padding: 15px, 32px;
+    padding: 15px 32px;
 }
 
 /* Footer */
